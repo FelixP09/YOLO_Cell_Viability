@@ -43,6 +43,9 @@ At the end of the training, plots are automatically generated :
   - the different losses / metrics along epochs
 
 ## Training results
+### Losses / metrics
 ![res_plot](plots/results.png)
+### F1-score / Confidence value
 ![f1_plot](plots/F1_curve.png)
+### Validation part prediction
 ![val_plot](plots/val_batch0_labels.jpg)
