@@ -25,4 +25,4 @@ At the end of the training, plots are automatically generated :
 
 ![res_plot](plots/results.png)
 ![f1_plot](plots/F1_curve.png)
-![val_plot](plots/val_bath0_pred.jpg)
+![val_plot](plots/val_batch0_pred.jpg)
