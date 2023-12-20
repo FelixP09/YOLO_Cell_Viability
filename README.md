@@ -7,10 +7,12 @@ Detection models are able both to find objects coordinates on images and classif
 The Dataset is composed of 480 images (X10) of U2OS cell line treated with different confidential compounds. These are high resolution grayscale images (2048,2048,1).
 All images were acquired in three channels :
   - Transmitted light : the model  input
-  - FITC : a DIOC staining used for cell localization (x/y coordinates calculation) for the labelling
-  - DAPI : a DAPI staining used for cell classification (Alive/Dead) for the labelling
+  - FITC : a DIOC staining used for cell localization (x/y coordinates calculation) for the labeling
+  - DAPI : a DAPI staining used for cell classification (Alive/Dead) for the labeling
 
 Input images were normalized by quantiles (0.0005,0.9995) and saved in png format. The dataset were divided in training and validation parts (0.8/0.2).
+
+Download link : https://www.kaggle.com/datasets/felixp09/cell-viability-detection/data
 
 ## Model training
 We trained a YOLOv8n detection model, developed by Ultralytics package (https://docs.ultralytics.com/). The model is trained from a pre-trained model, to which new classes will be added.
