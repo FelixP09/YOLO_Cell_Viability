@@ -1,2 +1,2 @@
-# YOLO_Cell_Viability
+# YOLO Detection model for Cell Viability
 Detection model for cell viability
