@@ -24,4 +24,4 @@ At the end of the training, plots are automatically generated :
   - the different losses / metrics along epochs
 
 ![res_plot](plots/results.png)
-
+![f1_plot](plots/F1_curve.png)
