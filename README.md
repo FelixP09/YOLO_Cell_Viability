@@ -22,3 +22,6 @@ At the end of the training, plots are automatically generated :
   - the confusion matrix
   - the F1-score in function of confidence value (the probability that a box contains an object)
   - the different losses / metrics along epochs
+
+![res_plot](.plots/results.png)
+
