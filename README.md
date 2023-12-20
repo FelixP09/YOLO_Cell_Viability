@@ -19,11 +19,11 @@ In each text files :
    - there is one row by cell
 
 In each row, there is 5 values :
-    1 : the class ID
-    2 : the normalized x coordinate of the center of the box
-    3 :  the normalized y coordinate of the center of the box
-    4 :  the normalized width of the box
-    5 : the normalized height of the box
+  1. the class ID
+  2. the normalized x coordinate of the center of the box
+  3. the normalized y coordinate of the center of the box
+  4. the normalized width of the box
+  5. the normalized height of the box
 
 
 Download link : https://www.kaggle.com/datasets/felixp09/cell-viability-detection/data
