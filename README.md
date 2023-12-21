@@ -46,5 +46,21 @@ At the end of the training, plots are automatically generated :
 ![res_plot](plots/results.png)
 ### F1-score / Confidence value
 ![f1_plot](plots/F1_curve.png)
-### Validation part prediction
-![val_plot](plots/val_batch0_labels.jpg)
+
+## Test 
+
+'''
+INPUT_PATH = "datasets/images/val/0000.png"
+CONF = 0.197
+MAX_DET = 3000
+IMGSZ = 2048
+
+# Image processing
+INPUT_IMG = Img_processing(INPUT_PATH)
+
+# Model prediction
+PRED = model.predict(INPUT_IMG, conf = CONF, max_det = MAX_DET, imgsz = IMGSZ)
+
+# Results
+RES = Custom_results(PRED[0])
+'''
