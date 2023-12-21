@@ -1,5 +1,5 @@
 # YOLO Detection model for Cell Viability
-![headband](Other/hedband.png)
+![headband](Other/headband.png)
 
 ## Introduction
 Detection models are able both to find objects coordinates on images and classify them. Unlike classification models, detection models are able to predict several objects with different classes on the same image, making it a powerful tool for cellular images and especially for cell viability analysis.
