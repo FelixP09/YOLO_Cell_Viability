@@ -49,6 +49,12 @@ At the end of the training, plots are automatically generated :
 
 ## Test 
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 '''
 INPUT_PATH = "datasets/images/val/0000.png"
 CONF = 0.197
