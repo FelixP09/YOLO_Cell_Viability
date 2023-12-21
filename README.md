@@ -54,6 +54,7 @@ INPUT_PATH = "datasets/images/val/0000.png"
 CONF = 0.197
 MAX_DET = 3000
 IMGSZ = 2048
+'''
 
 # Image processing
 INPUT_IMG = Img_processing(INPUT_PATH)
