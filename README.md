@@ -49,7 +49,7 @@ At the end of the training, plots are automatically generated :
 
 ## Use the model
 
-```jupyter
+```python
 # Packages
 from ultralytics import YOLO
 # Custom functions
@@ -77,21 +77,21 @@ RES = Custom_results(PRED[0])
 ```
 ## Get Results
 
-```ruby
+```python
 # Prediction plot
 RES.Img_plot
 ```
 
 ![Img_pred](Other/img_pred.png)
 
-```ruby
+```python
 # Get Cell data
 RES.Cell_Data
 ```
 
 ![Cell_Data](Other/Cell_Data.png)
 
-```ruby
+```python
 # Viability plot
 RES.Viability_plot()
 ```
