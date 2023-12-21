@@ -70,3 +70,10 @@ PRED = model.predict(INPUT_IMG, conf = CONF, max_det = MAX_DET, imgsz = IMGSZ)
 # Results
 RES = Custom_results(PRED[0])
 ```
+## Predictions
+
+```ruby
+RES.Img_plot
+```
+
+![f1_plot](Other/img_pred.png.png)
