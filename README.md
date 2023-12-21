@@ -50,6 +50,11 @@ At the end of the training, plots are automatically generated :
 ## Use the model
 
 ```ruby
+# Packages
+from ultralytics import YOLO
+# Custom functions
+from Functions.Functions import AutoNormalize, Img_processing, Custom_results
+
 # Model Loading
 model = YOLO("model/Cell_viability_detector.pt")
 
