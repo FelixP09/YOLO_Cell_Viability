@@ -50,6 +50,10 @@ At the end of the training, plots are automatically generated :
 ## Test 
 
 ```ruby
+# Model Loading
+model = YOLO("model/Cell_viability_detector.pt")
+
+# Get the pathway of input image
 INPUT_PATH = "datasets/images/val/0000.png"
 
 # Set hyper-parameters
