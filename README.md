@@ -14,11 +14,9 @@ All images were acquired in three channels :
 Input images were normalized by quantiles (0.0005,0.9995) and saved in png format. The dataset were divided in training and validation parts (0.8/0.2).
 
 ### Labels
-Each image has a text file as label.
-In each text files :
-   - there is one row by cell
+Each image has a text file as label with one row by cell.
 
-In each row, there is 5 values :
+Each row contains 5 values :
   1. the class ID
   2. the normalized x coordinate of the center of the box
   3. the normalized y coordinate of the center of the box
