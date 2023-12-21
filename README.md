@@ -84,4 +84,4 @@ RES.Img_plot
 RES.Cell_Data
 ```
 
-![f1_plot](Other/img_pred.png)
+![f1_plot](Other/Cell_Data.png)
