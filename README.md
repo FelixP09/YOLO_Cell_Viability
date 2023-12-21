@@ -30,7 +30,7 @@ In each row, there is 5 values :
 https://www.kaggle.com/datasets/felixp09/cell-viability-detection/data
 
 
-
+### Image sample from the training set for supervised learning
 ![batch_plot](plots/train_batch0.jpg)
 
 ## Model training
