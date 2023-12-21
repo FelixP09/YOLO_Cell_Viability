@@ -73,7 +73,7 @@ RES = Custom_results(PRED[0])
 ## Get Results
 
 ```ruby
-# Prediction plotting
+# Prediction plot
 RES.Img_plot
 ```
 
@@ -85,3 +85,10 @@ RES.Cell_Data
 ```
 
 ![f1_plot](Other/Cell_Data.png)
+
+```ruby
+# Viability plot
+RES.Viability_plot()
+```
+
+![f1_plot](Other/Viability_plot.png)
