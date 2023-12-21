@@ -47,7 +47,7 @@ At the end of the training, plots are automatically generated :
 ### F1-score / Confidence value
 ![f1_plot](plots/F1_curve.png)
 
-## Test 
+## Use the model
 
 ```ruby
 # Model Loading
@@ -70,11 +70,18 @@ PRED = model.predict(INPUT_IMG, conf = CONF, max_det = MAX_DET, imgsz = IMGSZ)
 # Results
 RES = Custom_results(PRED[0])
 ```
-## Results
+## Get Results
 
 ```ruby
 # Prediction plotting
 RES.Img_plot
+```
+
+![f1_plot](Other/img_pred.png)
+
+```ruby
+# Get Cell data
+RES.Cell_Data
 ```
 
 ![f1_plot](Other/img_pred.png)
