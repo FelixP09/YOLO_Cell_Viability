@@ -32,7 +32,7 @@ https://www.kaggle.com/datasets/felixp09/cell-viability-detection/data
 ![batch_plot](plots/train_batch0.jpg)
 
 ## Model training
-We trained a YOLOv8n detection model, developed by Ultralytics package (https://docs.ultralytics.com/). The model is trained from a pre-trained model, to which new classes will be added.
+We trained a YOLOv8n detection model, developed by Ultralytics package (https://docs.ultralytics.com/). The model is trained from a pre-trained model, to which two new classes will be added (Alive Cell and Dead Cell).
 YOLO training needs a yaml file containing the dataset pathway and the new classes IDs.
 Model training is performed with a maximum of 300 epochs and two losses calculation for localization (box_loss) and classification (cls_loss).
 At the end of the training, plots are automatically generated :
