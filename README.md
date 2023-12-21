@@ -46,6 +46,8 @@ At the end of the training, plots are automatically generated :
 ![res_plot](plots/results.png)
 ### F1-score / Confidence value
 ![f1_plot](plots/F1_curve.png)
+### Normalized Confusion Matrix
+![confusion_matrix](plots/confusion_matrix_normalized.png)
 
 ## Use the model
 
