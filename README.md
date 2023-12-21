@@ -49,7 +49,7 @@ At the end of the training, plots are automatically generated :
 
 ## Use the model
 
-```python
+```jupyter
 # Packages
 from ultralytics import YOLO
 # Custom functions
