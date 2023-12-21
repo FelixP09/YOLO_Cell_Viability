@@ -50,17 +50,12 @@ At the end of the training, plots are automatically generated :
 ## Test 
 
 ```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
-'''
 INPUT_PATH = "datasets/images/val/0000.png"
+
+# Set hyper-parameters
 CONF = 0.197
 MAX_DET = 3000
 IMGSZ = 2048
-'''
 
 # Image processing
 INPUT_IMG = Img_processing(INPUT_PATH)
@@ -70,4 +65,4 @@ PRED = model.predict(INPUT_IMG, conf = CONF, max_det = MAX_DET, imgsz = IMGSZ)
 
 # Results
 RES = Custom_results(PRED[0])
-'''
+```
