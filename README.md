@@ -77,18 +77,18 @@ RES = Custom_results(PRED[0])
 RES.Img_plot
 ```
 
-![f1_plot](Other/img_pred.png)
+![Img_pred](Other/img_pred.png)
 
 ```ruby
 # Get Cell data
 RES.Cell_Data
 ```
 
-![f1_plot](Other/Cell_Data.png)
+![Cell_Data](Other/Cell_Data.png)
 
 ```ruby
 # Viability plot
 RES.Viability_plot()
 ```
 
-![f1_plot](Other/Viability_plot.png)
+![Viability_plot](Other/Vialbility_plot.png)
