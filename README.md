@@ -14,7 +14,7 @@ All images were acquired in three channels :
 Input images were normalized by quantiles (0.0005,0.9995) and saved in png format. The dataset were divided in training and validation parts (0.8/0.2).
 
 ### Labels
-Each image have a text file as label.
+Each image has a text file as label.
 In each text files :
    - there is one row by cell
 
