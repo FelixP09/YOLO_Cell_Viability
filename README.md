@@ -4,6 +4,18 @@
 ## Introduction
 Detection models are able both to find objects coordinates on images and classify them. Unlike classification models, detection models are able to predict several objects with different classes on the same image, making it a powerful tool for cellular images and especially for cell viability analysis.
 
+## Requirements
+  - ultralytics (https://docs.ultralytics.com/quickstart/#install-ultralytics)
+  - pandas
+  - numpy
+  - PIL
+  - scikit-learn
+  - os
+  - matplotlib
+  - seaborn
+  - multiprocessing
+  - functools
+
 ## Dataset
 ### Images
 The Dataset is composed of 480 images (X10) of U2OS cell line treated with different confidential compounds. These are high resolution grayscale images (2048,2048,1).
@@ -99,3 +111,5 @@ RES.Viability_plot()
 ```
 
 ![Viability_plot](Other/Vialbility_plot.png)
+
+## Cell Tracking
