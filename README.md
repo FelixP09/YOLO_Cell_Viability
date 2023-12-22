@@ -113,3 +113,31 @@ RES.Viability_plot()
 ![Viability_plot](Other/Vialbility_plot.png)
 
 ## Cell Tracking
+YOLO model is able to assign TrackID to cells over time with video input.
+
+```python
+# Packages
+from ultralytics import YOLO
+# Custom functions
+from Functions.Functions import AutoNormalize, Img_processing, Custom_results
+
+# Model Loading
+model = YOLO("model/Cell_viability_detector.pt")
+
+# Get the pathway of input image
+INPUT_PATH = "Track/INPUT/Tracking_test.avi"
+
+# Set hyper-parameters
+CONF = 0.197
+MAX_DET = 3000
+IMGSZ = 2048
+
+# Image processing
+INPUT_IMG = Img_processing(INPUT_PATH)
+
+# Model prediction
+PRED_TRACK = model.track(INPUT_PATH,conf = CONF, max_det = MAX_DET, imgsz = IMGSZ, tracker = "Track/bytetrack.yaml" )
+
+# Results
+RES_LIST = [Custom_results(pred) for pred in PRED_TRACK]
+```
